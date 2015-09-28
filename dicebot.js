@@ -8,6 +8,9 @@ var rolls = [];
 var total = 0;
 var botPayload = {};
 
+module.exports = function (req, res, next) {
+};
+
 if (req.body.text) {
 	//parse roll type if specified
 	matches = req.body.text.match(/^(\d{1,2})d(\d{1,2})$/);
@@ -21,8 +24,7 @@ if (req.body.text) {
 	}
 };
 
-module.exports = function (req, res, next) {
-};
+
 
 function roll (min,max) {
 	return Math.floor(Math.random() * (max-min+1) + min);
