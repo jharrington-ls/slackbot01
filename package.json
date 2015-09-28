@@ -1,0 +1,26 @@
+{
+  "name": "slackbot01",
+  "version": "1.0.0",
+  "description": "Slack outgoing web hook test 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "body-parser": "^1.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jharrington-ls/slackbot01.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "John Harrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jharrington-ls/slackbot01/issues"
+  },
+  "homepage": "https://github.com/jharrington-ls/slackbot01#readme"
+}
