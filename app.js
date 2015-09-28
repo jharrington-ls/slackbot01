@@ -1,4 +1,5 @@
 var hellobot = require('./hellobot');
+var dicebot = require('./dicebot');
 var express = require('express');
 var bodyParser = require('body-parser');
 
@@ -24,3 +25,4 @@ app.listen(port,function(){
 
 //adding a route that listens for a POST to /hello
 app.post('/hello',hellobot);
+app.post('/roll',dicebot);
